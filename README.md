@@ -10,7 +10,7 @@ The Domain Name System (DNS) functions as the Internet’s phone book, translati
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python</b> 
-- <b>Ununtu 20.04 VM</b>
+- <b>Ubuntu 20.04 VM</b>
 
 <h2>Environments Used </h2>
 
