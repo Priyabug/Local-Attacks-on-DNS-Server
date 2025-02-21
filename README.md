@@ -39,10 +39,10 @@ The Domain Name System (DNS) functions as the Internet’s phone book, translati
 - <b> Using Scapy for Sniffing and Spoofing:</b>
 
      <b> 1. Task 1:</b> Directly Spoofing Response to User<br>
-     <b> 1. Task 2:</b> DNS Cache Poisoning Attack – Spoofing Answers<br>
-     <b> 1. Task 3:</b>Spoofing NS Records<br>
-     4. Task 4: Spoofing NS Records for Another Domain<br>
-     5. Task 5: Spoofing Records in the Additional Section<br>
+     <b> 2. Task 2:</b> DNS Cache Poisoning Attack – Spoofing Answers<br>
+     <b> 3. Task 3:</b>Spoofing NS Records<br>
+     <b> 4. Task 4:</b> Spoofing NS Records for Another Domain<br>
+     <b> 5. Task 5:</b> Spoofing Records in the Additional Section<br>
  
 
 
