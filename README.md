@@ -18,11 +18,11 @@ The Domain Name System (DNS) functions as the Internet’s phone book, translati
 
 <h2> Lab topics covered</h2>
 
-- <b>DNS server setup</b>
-- <b>DNS cache poisoning attack</b>
-- <b>Spoofing DNS responses</b>
-- <b>Packet sniffing and spoofing< /b>
-- <b>The Scapy tool</b>
+-    DNS server setup</b>
+-    DNS cache poisoning attack</b>
+-    Spoofing DNS responses</b>
+-    Packet sniffing and spoofing
+-    The Scapy tool</b>
 
 
 <h2>Shell scripts commands</h2>
@@ -38,9 +38,9 @@ The Domain Name System (DNS) functions as the Internet’s phone book, translati
 
 - <b> Using Scapy for Sniffing and Spoofing:</b>
 
-     1. Task 1: Directly Spoofing Response to User<br>
-     2. Task 2: DNS Cache Poisoning Attack – Spoofing Answers<br>
-     3. Task 3: Spoofing NS Records<br>
+     <b> 1. Task 1:</b> Directly Spoofing Response to User<br>
+     <b> 1. Task 2:</b> DNS Cache Poisoning Attack – Spoofing Answers<br>
+     <b> 1. Task 3:</b>Spoofing NS Records<br>
      4. Task 4: Spoofing NS Records for Another Domain<br>
      5. Task 5: Spoofing Records in the Additional Section<br>
  
