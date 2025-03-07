@@ -1,48 +1,45 @@
-<h1>Local Attacks on DNS Server.</h1>
+# 🌐 Local Attacks on DNS Server
 
-<h2>Description</h2>
-The Domain Name System (DNS) functions as the Internet’s phone book, translating hostnames into IP addresses and vice versa. This translation process, known as DNS resolution, occurs behind the scenes. DNS attacks exploit vulnerabilities in this resolution process to redirect users to unintended, often malicious, destinations. The goal of this lab is to explore how these attacks operate. Participants will begin by setting up and configuring a DNS server, followed by executing various DNS attacks within a controlled lab environment to understand their impact and mechanisms.
-<br />
+## ✨ Description
 
-![image](https://github.com/user-attachments/assets/af85632f-4ce9-447a-9585-808c59a1fe82)
+The **Domain Name System (DNS)** functions as the Internet’s **phone book**, translating hostnames into **IP addresses** and vice versa. This translation process, known as **DNS resolution**, happens behind the scenes.
 
+**DNS attacks** exploit vulnerabilities in this resolution process to **redirect users** to unintended, often malicious, destinations.  
 
-<h2>Languages and Utilities Used</h2>
+The goal of this lab is to explore how these attacks operate. Participants will:
+1. Set up and configure a DNS server.
+2. Execute various DNS attacks within a controlled lab environment to understand their **impact** and **mechanisms**.
 
-- <b>Python</b> 
-- <b>Ubuntu 20.04 VM</b>
+![DNS Attack Image](image-link) *(Replace "image-link" with the actual image URL)*
 
-<h2>Environments Used </h2>
+---
 
-- <b>Windows 11 Home</b> (21H2)
+## 💻 Languages and Utilities Used
 
-<h2> Lab topics covered</h2>
+- **Python**
+- **Ubuntu 20.04 VM**
 
--    DNS server setup</b>
--    DNS cache poisoning attack</b>
--    Spoofing DNS responses</b>
--    Packet sniffing and spoofing
--    The Scapy tool</b>
+---
 
+## 🖥️ Environments Used
 
-<h2>Shell scripts commands</h2>
+- **Windows 11 Home (21H2)**
 
-- `./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process, e.g. `./dc-build.sh --no-cache`.
-- `./dc-up.sh` - Start the docker containers in the foreground.
-- `./dc-up-d.sh` - Start the docker containers in the background.
-- `./dc-stop.sh` - Stop the docker containers, it can take one additional parameter to be used in the stop process.
-- `./dc-down.sh` - Stop and remove the docker containers, it can take one additional parameter to be used in the stop and remove process.
-- `./dc-unittest.sh` - Utility script to aid in running a specific unit test class.
+---
 
-<h2>Program walk-through:</h2>
+## 🧑‍🏫 Lab Topics Covered
 
-- <b> Using Scapy for Sniffing and Spoofing:</b>
+- **DNS server setup**
+- **DNS cache poisoning attack**
+- **Spoofing DNS responses**
+- **Packet sniffing and spoofing**
+- **The Scapy tool**
+- **Shell script commands:**
 
-     <b> 1. Task 1:</b> Directly Spoofing Response to User<br>
-     <b> 2. Task 2:</b> DNS Cache Poisoning Attack – Spoofing Answers<br>
-     <b> 3. Task 3:</b>Spoofing NS Records<br>
-     <b> 4. Task 4:</b> Spoofing NS Records for Another Domain<br>
-     <b> 5. Task 5:</b> Spoofing Records in the Additional Section<br>
- 
-
-
+```bash
+./dc-build.sh  # Build the docker images; can take an additional parameter, e.g. ./dc-build.sh --no-cache
+./dc-up.sh  # Start the docker containers in the foreground
+./dc-up-d.sh  # Start the docker containers in the background
+./dc-stop.sh  # Stop the docker containers; can take an additional parameter for the stop process
+./dc-down.sh  # Stop and remove the docker containers; can take an additional parameter for the stop and remove process
+./dc-unittest.sh  # Utility script to run a specific unit test class
