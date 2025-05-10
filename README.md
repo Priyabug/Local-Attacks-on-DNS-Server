@@ -1,4 +1,4 @@
-# 🌐 Local Attacks on DNS Server
+# 🌐 Exploring DNS Behavior in Local Environments
 
 ## ✨ Description
 
