@@ -8,7 +8,7 @@ The **Domain Name System (DNS)** functions as the Internet’s **phone book**, t
 
 The goal of this lab is to explore how these attacks operate. Participants will:
 1. Set up and configure a DNS server.
-2. Execute various DNS attacks within a controlled lab environment to understand their **impact** and **mechanisms**.
+2. Execute various DNS manipulations within a controlled lab environment to understand their impact and mechanisms.
 
 ![DNS Attack Image](image-link) *(Replace "image-link" with the actual image URL)*
 
